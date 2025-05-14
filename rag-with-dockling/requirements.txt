@@ -1,0 +1,10 @@
+streamlit
+llama-index-core
+llama-index-readers-dockling
+llama-index-node-parser-dockling
+llama-index-embeddings-huggingface
+dockling
+transformers
+sentencepiece
+torch
+python-dotenv
