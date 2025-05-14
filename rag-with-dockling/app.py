@@ -5,7 +5,10 @@ import tempfile
 import uuid
 import pandas as pd
 
-from llama_index.core import Settings
+try:
+    from llama_index.core import Settings
+except ImportError:
+    from llama_index import Settings
 from llama_index.llms.ollama import Ollama
 from llama_index.core import PromptTemplate
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
